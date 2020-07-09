@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/labelTypeTextCoffee"
+        android:layout_width="fill_parent"
+        android:layout_height="63dp"
+        android:background="#ff0033cc"
+        android:text="English Vocabulary"
+        android:textColor="#ffffff"
+        android:padding="20dp"
+        android:textStyle="bold"></TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image1" />
+
+    <Button
+        android:id="@+id/btnLearn"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="3dp"
+        android:text="LEARN"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnPratice"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="PRATICE"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="3dp"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="TEST"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="3dp"
+        android:textStyle="bold"></Button>
+    <RelativeLayout android:id="@+id/ImgaeLayout"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/image2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@string/image"
+            android:src="@drawable/image4" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/image"
+            android:src="@drawable/image3" />
+    </RelativeLayout>
+</LinearLayout>
